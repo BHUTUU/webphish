@@ -1,15 +1,15 @@
 # phishBHUTUU
 A beautiful  website Phishing program
-#Installation
+# Installation
 ```git clone https://github.com/BHUTUU/phishBHUTUU```
-#Usage
+# Usage
 ```cd phishBHUTUU```
 ```./phish```
-#Requrements:-
+# Requrements:-
 
-***Ngrok***
-***pv***
-***jq***
-***lolcat***
-***php***
-***And lastly a device to run it!!***
+*** Ngrok ***
+*** pv ***
+*** jq ***
+*** lolcat ***
+*** php ***
+*** And lastly a device to run it!! ***
