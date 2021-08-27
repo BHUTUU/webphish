@@ -4,7 +4,7 @@
 :END:
 :CONTENTS:
 - [[#about][About]]
-- [[#Installation][Requirements]]
+- [[#Installation][Installation][Requirements]]
 :END:
 
 * About
