@@ -1,0 +1,25 @@
+* Table of Contents
+:PROPERTIES:
+:TOC:
+:END:
+:CONTENTS:
+- [[#about][About]]
+- [[#installation][Installation][Requirements]]
+:END:
+
+* About
+  A beautiful website phishing tool
+
+* Installation
+  #+BEGIN_SRC shell
+    $ git clone https://github.com/BHUTUU/phishBHUTUU
+    $ cd phishBHUTUU
+    $ bash phish
+  #+END_SRC
+* Requirements
+  php
+  Ngrok
+  lolcat
+  pv
+  jq
+  
